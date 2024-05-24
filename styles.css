@@ -1,0 +1,142 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* général */
+body {
+    font-family: 'Goth', sans-serif;
+    background-color: #f0f7fd;
+    background-image: url('imageB3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: navy; 
+    padding: 10px;
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+/* l'en-tête */
+header {
+    background-color: #3c8dbc;
+    color: white;
+    padding: 30px 0;
+    text-align: center; /* Centrer le contenu */
+    font-size: 30px;
+}
+
+/* menu */
+nav {
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: 25px;
+}
+
+nav a:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* contenu principal */
+main {
+    padding: 20px;
+}
+
+main p {
+    font-weight: bold; /* Ajouté pour rendre le texte des paragraphes plus gras */
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center; /* Centrer les grands titres */
+}
+
+main ol, main ul {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+main ol li, main ul li {
+    margin-bottom: 10px;
+}
+
+/* vidéos */
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.video {
+    width: 100%;
+    height: 315px;
+}
+
+/* image et le texte côte à côte */
+.content {
+    display: flex;
+}
+
+.content img {
+    width: 50%;
+    height: auto;
+}
+
+.text {
+    width: 50%;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+/* pied de page */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3c8dbc;
+    color: white;
+}
+
+.footer-table {
+    margin: 0 auto;
+}
+
+/* tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}

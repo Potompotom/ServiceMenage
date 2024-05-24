@@ -1,0 +1,93 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: margin;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utilisation de flexbox pour disposer les éléments horizontalement */
+    flex-direction: column; /* Les éléments sont disposés en colonne */
+}
+
+/* En-tête */
+header {
+    background-color: #3c8dbc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #3498db;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Contenu principal */
+main {
+    padding: 20px;
+    display: flex; /* Utilisation de flexbox pour disposer les éléments horizontalement */
+    flex-wrap: wrap; /* Permet le retour à la ligne si nécessaire */
+    justify-content: space-between; /* Les éléments sont répartis sur toute la largeur avec un espace entre */
+}
+
+/* Formulaire */
+form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-basis: 48%; /* La largeur du formulaire est définie à 48% de la largeur du conteneur */
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #E9F5FB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #3071a9;
+}
+
+/* Image */
+img {
+    flex-basis: 50%; /* La largeur de l'image est définie à 48% de la largeur du conteneur */
+    align-self: flex-start; /* Alignement de l'image au début du conteneur flex */
+}
+
