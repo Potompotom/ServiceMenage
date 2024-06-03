@@ -1,32 +1,17 @@
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #3c8dbc; /* Conserve la couleur de fond */
-    color: white;
-    font-family: 'Arial', sans-serif; /* Changer la police */
-    font-size: 16px; /* Taille de la police */
-    border-top: 2px solid #2a6a8b; /* Bordure supérieure pour plus de style */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Ombre subtile pour ajouter de la profondeur */
-    margin-top: 20px; /* Marge supérieure pour espacer du contenu précédent */
-}
-
-footer .footer-links {
-    margin-bottom: 10px; /* Marge inférieure pour espacer du texte suivant */
-}
-
-footer a {
-    color: white; /* Couleur des liens */
-    margin: 0 10px; /* Espacement entre les liens */
-    text-decoration: none; /* Suppression de la sous-ligne des liens */
-}
-
-footer a:hover {
-    text-decoration: underline; /* Souligne les liens au survol */
-}
-
-footer .social-icon {
-    width: 20px; /* Taille des icônes sociales */
-    height: auto; /* Maintien du ratio d'aspect */
-    margin: 0 5px; /* Espacement entre les icônes */
-    vertical-align: middle; /* Alignement vertical des icônes */
-}
+<footer>
+    <div class="footer-links">
+        <a href="plandusite.html">Plan du site</a> |
+        <a href="mailto:sweeetpotom@gmail.com">Contactez-nous</a> |
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="facebook-icon.png" alt="Facebook">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="twitter-icon.png" alt="Twitter">
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="linkedin-icon.png" alt="LinkedIn">
+        </a>
+    </div>
+    <p>Ce site supporte les navigateurs: Chrome, Opéra, Safari, Edge et Firefox.</p>
+    <p>&copy; 2024 Service d'Entretien Ménager. Tous droits réservés.</p>
+</footer>
