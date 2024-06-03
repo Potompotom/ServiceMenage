@@ -111,8 +111,25 @@ footer {
     color: white;
 }
 
-.footer-table {
-    margin: 0 auto;
+/* Footer links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-links img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
 }
 
 /* tableau */
